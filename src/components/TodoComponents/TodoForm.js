@@ -1,8 +1,9 @@
 import React from "react";
+import "./Todo.css";
 
 const TodoForm = props => {
   return (
-    <div>
+    <div className="form-container">
       <form onSubmit={props.handleSubmit}>
         <input
           type="text"

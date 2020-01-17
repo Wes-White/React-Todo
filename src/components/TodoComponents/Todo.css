@@ -1,3 +1,32 @@
 .completed > p {
-  text-decoration: line-through black;
+  text-decoration: line-through red;
+  text-decoration-thickness: 10px;
+}
+
+.form-container {
+  align-self: center;
+}
+input {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+}
+
+button {
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+}
+
+.todo-list {
+  align-self: center;
+  margin-top: 100px;
+  font-size: 40px;
+  line-height: 1;
+  font-family: "Caveat", cursive;
 }
